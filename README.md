@@ -11,7 +11,7 @@ This repo contains materials from the workshop organized by our department durin
 - Positioning on the [Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard)
 
 #### Contents
-|---------------------------|-------------|
+
 | `Workshop Demo.ipynb`     | Guided notebook covering fine-tuning, generation, and evaluation |
 | `lora-8b.yml`             | Example Axolotl config for LoRA-based fine-tuning |
 | `generated_data_100.jsonl` | Sample dataset for instruction tuning |
