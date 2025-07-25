@@ -1,8 +1,8 @@
 # Hands-On Fine-Tuning and Evaluating Open LLMs
 
-This repo contains materials from the workshop organized during my time at the Max Planck Institute. The session introduced participants to open-source tools for adapting, evaluating, and interpreting large language models (LLMs) using lightweight infrastructure.
+This repo contains materials from the workshop organized by our department during my time at the Max Planck Institute. The session introduced participants from psychometrics background, to open-source tools for adapting, evaluating, and interpreting large language models (LLMs) using lightweight infrastructure.
 
-### 🔍 Topics Covered
+#### Topics Covered
 - Multihead attention and transformer basics
 - Fine-tuning GPT-2 using Axolotl and LoRA
 - Formatting datasets for supervised and multiple-choice tasks
@@ -10,9 +10,7 @@ This repo contains materials from the workshop organized during my time at the M
 - Model scaling and memory cost estimation
 - Positioning on the [Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard)
 
-### 📁 Repository Contents
-
-| File                      | Description |
+#### Contents
 |---------------------------|-------------|
 | `Workshop Demo.ipynb`     | Guided notebook covering fine-tuning, generation, and evaluation |
 | `lora-8b.yml`             | Example Axolotl config for LoRA-based fine-tuning |
@@ -20,7 +18,7 @@ This repo contains materials from the workshop organized during my time at the M
 | `mmlu_data.csv`           | Multiple-choice dataset for evaluation |
 | `fit_full_mmlu_pro_2pl.R` | R script for 2PL IRT modeling of LLM outputs |
 | `llm-psychometrics-workshop.pdf` | Slide deck from the workshop |
-| `README.md`               | This file |
+
 
 ### 🔗 References
 - [Axolotl](https://github.com/axolotl-ai-cloud/axolotl) – Lightweight LLM fine-tuning
