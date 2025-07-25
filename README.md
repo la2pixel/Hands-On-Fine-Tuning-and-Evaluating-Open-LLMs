@@ -12,13 +12,14 @@ This repo contains materials from the workshop organized by our department durin
 
 #### Contents
 
+| file                      | description |
+|---------------------------|-------------|
 | `Workshop Demo.ipynb`     | Guided notebook covering fine-tuning, generation, and evaluation |
 | `lora-8b.yml`             | Example Axolotl config for LoRA-based fine-tuning |
 | `generated_data_100.jsonl` | Sample dataset for instruction tuning |
 | `mmlu_data.csv`           | Multiple-choice dataset for evaluation |
 | `fit_full_mmlu_pro_2pl.R` | R script for 2PL IRT modeling of LLM outputs |
 | `llm-psychometrics-workshop.pdf` | Slide deck from the workshop |
-
 
 ### 🔗 References
 - [Axolotl](https://github.com/axolotl-ai-cloud/axolotl) – Lightweight LLM fine-tuning
